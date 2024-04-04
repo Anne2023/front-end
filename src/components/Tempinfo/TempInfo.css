@@ -1,0 +1,27 @@
+span{
+  display: flex;
+  align-items: center;
+}
+
+.TempContainer h1{
+  margin: 0;
+}
+
+.TempContainer p{
+  margin: 5px;
+}
+
+.TempContainer{
+  margin-top: 50px;
+  border: 2px black solid;
+  padding: 5px;
+  justify-content: center;
+}
+
+.Cidade{
+  margin-right: 80px;
+}
+
+.Condicao{
+  text-align: end;
+}

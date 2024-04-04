@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Forecast from './components/Forecast/Forecast';
+import Tempinfo from '../src/components/Tempinfo/Tempinfo'
+import Search from '../src/components/Search/Search'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Search/>
+      <Tempinfo/>
+      <Forecast/>
+      
     </div>
   );
 }
